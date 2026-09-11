@@ -1,0 +1,22 @@
+﻿# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*.class
+.pytest_cache/
+
+# Secrets & Environment variables
+.env
+*.local
+
+# Mobile build artifacts & caches
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+*.log
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
